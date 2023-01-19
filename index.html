@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Seller</title>
+</head>
+<body>
+ <header>
+  <h1>Seller's Admin page with total stock value (Crud crud)</h1>
+ </header>
+ <section>
+  <form action="" id="forms">
+   <label for="sellingPrice">Selling Price :</label>
+   <input type="number" name="sellingPrice" id="sellingPrice" min="0" required><br><br>
+   <label for="productName">Product Name :</label>
+   <input type="text" name="productName" id="productName" required>
+   <br><br>
+   <button type="submit" class="buttonSave">Add Products</button>
+
+  </form>
+  <h2>Products</h2>
+  <ul id="productList">
+
+  </ul>
+  <span><h2>Total value of worths:</h2></span>
+ </section>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+ <script src="index.js"></script>
+ 
+</body>
+</html>
